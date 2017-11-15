@@ -2,31 +2,30 @@ package com.autotest.api.beans;
 
 /**
  * 基础类
- * 
+ *
  * @author shark
  *
  */
 public class BaseBean {
 
-	private String excelName;
+    private String excelName;
 
-	private String sheetName;
+    private String sheetName;
 
-	public String getSheetName() {
-		return sheetName;
-	}
+    public String getSheetName() {
+        return sheetName;
+    }
 
-	public void setSheetName(String sheetName) {
-		this.sheetName = sheetName;
-	}
+    public void setSheetName(String sheetName) {
+        this.sheetName = sheetName;
+    }
 
-	public String getExcelName() {
-		return excelName;
-	}
+    public String getExcelName() {
+        return excelName;
+    }
 
-	public void setExcelName(String excelName) {
-		this.excelName = excelName;
-	}
-
+    public void setExcelName(String excelName) {
+        this.excelName = excelName;
+    }
 }
 
